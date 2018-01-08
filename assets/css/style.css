@@ -1,0 +1,249 @@
+.jumbotron {
+  color: white;
+  background-color: #e95420;
+  padding: 0px 0px 0px 0px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: -8px;
+  margin-top: -10px;
+}
+
+.jumbotron h1 {
+  margin-left: 2.666%;
+  width: 60%;
+  font-size:50px;
+}
+
+.jumbotron p {
+  position: relative;
+  font-size: 1.333em;
+  margin-left: 2.666%;
+}
+
+.weatherDiv {
+  float: right;
+  margin: 8px;
+  font-size: 1.333em;
+}
+
+body {
+  background: url("../images/wheat.jpg");
+  background-size: cover;
+}
+
+.navbar {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+}
+
+.myGym {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: -8px;
+}
+
+#myGymHeader {
+  width: 90%;
+  text-align: center;
+  color: white;
+  font-size: 1.666em;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.pageHeader {
+  font-size: 2.5em;
+}
+
+.form-group {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.nearbyReliefHeader {
+  font-size: 1.666em;
+}
+
+.breweryName {
+  font-weight: bold;
+  justify-content: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {}
+
+/*STUFF FROM PAULSMAP*/
+
+#mapDiv1 {
+  height: 74vh;
+  padding-top: 2%;
+  width: 90%;
+  margin-left: 4.1%;
+}
+
+#mapDiv2 {
+  height: 100%;
+}
+
+#mapDiv3 {
+  height: 100%;
+  margin-bottom: 2.5%;
+}
+
+.mapShowHide {
+  display: none;
+}
+
+#map {
+  height: 100%;
+  display: none;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+}
+
+/*#resultsDiv {
+<<<<<<< HEAD
+  background-color: #e95420;
+  color: white;
+=======
+	background-color: #e95420;
+	color: white;
+>>>>>>> 6c92bab56952be0edde92ece3e63c99e636b609a
+}*/
+
+#results2 {
+  height: 100%;
+  overflow-y: scroll;
+  display: none;
+  background-color: #e95420;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+  color: white;
+  margin-bottom: 2.5%;
+
+}
+
+#results3 {
+  height: 100%;
+}
+
+.resultName {
+  font-size: 1.666em;
+  text-decoration: underline;
+}
+
+.resultRating {
+  font-size: 1.166em;
+}
+
+.resultVicinity {
+  font-size: 1.166em;
+}
+
+.resultHR {
+  width: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 100%;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#target {
+  width: 345px;
+}

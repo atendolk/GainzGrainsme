@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Gainz &amp; Grains</title>
+	<!-- CSS Reset -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<!-- Bootstrap 3.3.7 -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Bootswatch 'United' Theme -->
+	<link rel="stylesheet" type="text/css" href="assets/css/unitedBootstrapTheme.css">
+
+	<!-- Google Fonts -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Asap:400,700|Flamenco|Lato" rel="stylesheet"> -->
+
+	<!-- Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<div class="wholePageContainer">
+
+	<div class="jumbotron centered">
+		<div class="weatherDiv"></div>
+		<h1>Gainz &amp; Grains</h1>
+		<p>Welcome to Gainz&amp;Grains.  Type in your gym name and location for a complete list of bars in your area.</p>
+	</div>
+
+	<!-- <nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="glyphicons-beer">
+					<div class="weatherDiv">
+					</div><img src="http://www.iconarchive.com/download/i90728/icons8/windows-8/Food-Beer.ico" width="40px" height="40px">
+				</div>
+				<span class="glyphicons glyphicons-beer"></span>
+				<a class="navbar-brand pageHeader" href="#">Gainz & Grains</a>
+			</div>
+		</div>
+	</nav> -->
+
+	<div class="myGym">
+		<div class="form-group">
+			<!-- <label class="centered" id="myGymHeader" for="pac-input">My Gym</label>
+			<br> -->
+			<input id="pac-input" class="controls form-control" type="text" placeholder="Search for a Gym">
+			<!-- <input class="form-control" id="employee-name-input" type="text"> -->
+		</div>
+	</div>
+
+
+	<div class="container" id="mapDiv1">
+		<div class="row" id="mapDiv2">
+			<div class="col-sm-6" id="mapDiv3">
+				<div id="map"></div>
+			</div>
+			<div class="col-sm-6" id="results2">
+				<div class="resultsContainer" id="results3">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<!-- Results Container (Holds 5 Results) -->
+
+	<!-- <div class="resultsContainer container">
+		<div class="row">
+			<div class="col-md-12 nearbyRelief">
+				<header class="nearbyReliefHeader"><strong>Nearby Relief</strong></header>
+				<hr>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="results">
+			<div class="row resultRow1">
+				<div class="col-md-12">
+					<p class="breweryName"><strong>1. Pauls Brewery</strong></p>
+					<hr>
+				</div>
+			</div>
+
+			Results Row #2
+			<div class="row resultRow2">
+				<div class="col-md-12">
+					<p class="breweryName">2. Pauls Brewery</p>
+					<hr>
+				</div>
+			</div>
+
+			Results Row #3
+			<div class="row resultRow3">
+				<div class="col-md-12">
+					<p class="breweryName">3. Pauls Brewery</p>
+					<hr>
+				</div>
+			</div>
+
+			Results Row #4
+			<div class="row resultRow4">
+				<div class="col-md-12">
+					<p class="breweryName">4. Pauls Brewery</p>
+					<hr>
+				</div>
+			</div>
+
+			Results Row #5
+			<div class="row resultRow5">
+				<div class="col-md-12">
+					<p class="breweryName">5. Pauls Brewery</p>
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCls9uUYJ4bnkQM3T704Qsc9-bAyjIqL88&libraries=places&callback=initMap" async defer></script>
+	<!-- Firebase Reference -->
+	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
